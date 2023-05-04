@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+html { background: #fff; }
+
+p,ul,dl,h1,h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.xlink {cursor:pointer}
+
+body { 
+    width: 700px;
+    margin: 0 auto;
+    padding: 80px 170px 0px 170px;
+    background: white  -120px 145px no-repeat;
+    font: 14px Georgia, serif;
+    color: #555553;
+    line-height: 22px;
+    -mox-box-shadow: 0 0 30px #666660;
+    -webkit-box-shadow: 0 0 30px #666660;
+    box-shadow: 0 0 30px #666660;
+}
+
+    div#header-fixed{  
+      position: fixed; /* headerの固定 */ 
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 60px;
+    } 
+    
+    div#header-bk{ 
+      background-color:#f0ffff;
+      padding:12px 0 8px;
+      height:40px;
+      width:120%;
+    } 
+    div#header { 
+      border: 0px solid #e0ffff; /* 表示領域を囲う */ 
+      height: 100%; /* 縦の表示領域はheader-bkと同じ */ 
+      width: 75%; /* 横の幅*/
+      margin: auto;
+    }
+
+    div#footer-fixed{  
+      /* position: fixed;  footerの固定 */ 
+      bottom: 0px;
+      left: 0px;
+      width: 200%;
+      height: 60px;
+    } 
+    
+    div#footer-bk{ 
+      /* background-color:#f0ffff; */
+      padding:0 0 8px;
+      height:40px;
+      width:100%;
+    } 
+    div#footer { 
+      border: 0px solid #e0ffff; /* 表示領域を囲う */ 
+      height: 100%; /* 縦の表示領域はfooter-bkと同じ */ 
+      width: 60%; /* 横の幅*/
+      margin: auto;
+    }
+
+a       { text-decoration: none; }
+a:link { color: #0000ff; }
+a:visited { color: #000080; }
+a:hover { color: #4C8438; }
+a:active { color: #ff8000; }
+
+ul {
+    margin-bottom: 12px;
+    padding-left: 20px;
+}
+
+p { margin-bottom: 34px; }
+p span {
+    font-variant: small-caps;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+h1,h2 {
+    font-weight: normal;
+    line-height: 30px;
+    color: #111;
+}
+h1 { font-size: 2.5em; margin-bottom: 22px; }
+h2 { font-size: 1.5em; margin-bottom: 2px; }
+
+sup, sub { line-height: 0; font-size: 10px; font-variant: normal; }
+sup { vertical-align: super;    }
+sub { vertical-align: baseline; }
+abbr {
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-size: 16px;
+    line-height: 0;
+}
+
+div { float: right; margin-left: 50px; }
+img { border: 1px solid #bbb; }
+
+em,dt { font-style: italic; }
+
+/*dl { overflow: hidden; }*/
+dt { margin-left: 20px; float: left;}
+dd { margin-left: 100px;}
+/*dd { width: 605px; }*/
+dd i { display: none; } /* spam obfuscation */
+dd span i { display: inline; font-style: normal; }
+
+

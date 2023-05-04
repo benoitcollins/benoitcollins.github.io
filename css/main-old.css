@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+
+      title="長い行を折り返す">
+  </head>
+  <body>
+    <pre>
+html { background: #8f8f88; }
+
+p,ul,dl,h1,h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.xlink {cursor:pointer}
+
+body { 
+    width: 700px;
+    margin: 0 auto;
+    padding: 60px 170px 115px 170px;
+    background: white  -120px 145px no-repeat;
+    font: 14px Georgia, serif;
+    color: #555553;
+    line-height: 22px;
+    -mox-box-shadow: 0 0 30px #666660;
+    -webkit-box-shadow: 0 0 30px #666660;
+    box-shadow: 0 0 30px #666660;
+}
+
+a       { text-decoration: none; }
+a:link { color: #0000ff; }
+a:visited { color: #000080; }
+a:hover { color: #4C8438; }
+a:active { color: #ff8000; }
+
+ul {
+    margin-bottom: 12px;
+    padding-left: 20px;
+}
+
+p { margin-bottom: 34px; }
+p span {
+    font-variant: small-caps;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+h1,h2 {
+    font-weight: normal;
+    line-height: 30px;
+    color: #111;
+}
+h1 { font-size: 2.5em; margin-bottom: 22px; }
+h2 { font-size: 1.5em; margin-bottom: 2px; }
+
+sup, sub { line-height: 0; font-size: 10px; font-variant: normal; }
+sup { vertical-align: super;    }
+sub { vertical-align: baseline; }
+abbr {
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-size: 16px;
+    line-height: 0;
+}
+
+div { float: right; margin-left: 50px; }
+img { border: 1px solid #bbb; }
+
+em,dt { font-style: italic; }
+
+dl { overflow: hidden; }
+dt,dd { margin-left: 20px; float: left; }
+dt { width: 50px; }
+dd { width: 605px; }
+dd i { display: none; } /* spam obfuscation */
+dd span i { display: inline; font-style: normal; }
+
+</pre>
+    
+  </body>
+</html>
