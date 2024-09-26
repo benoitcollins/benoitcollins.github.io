@@ -23,7 +23,7 @@ body {
 }
 
     div#header-fixed{  
-      position: fixed; /* header‚ÌŒÅ’è */ 
+      position: fixed; /* headerï¿½ÌŒÅ’ï¿½ */ 
       top: 0px;
       left: 0px;
       width: 100%;
@@ -37,14 +37,14 @@ body {
       width:120%;
     } 
     div#header { 
-      border: 0px solid #e0ffff; /* •\¦—Ìˆæ‚ğˆÍ‚¤ */ 
-      height: 100%; /* c‚Ì•\¦—Ìˆæ‚Íheader-bk‚Æ“¯‚¶ */ 
-      width: 75%; /* ‰¡‚Ì•*/
+      border: 0px solid #e0ffff; /* ï¿½\ï¿½ï¿½ï¿½Ìˆï¿½ï¿½ï¿½Í‚ï¿½ */ 
+      height: 100%; /* ï¿½cï¿½Ì•\ï¿½ï¿½ï¿½Ìˆï¿½ï¿½header-bkï¿½Æ“ï¿½ï¿½ï¿½ */ 
+      width: 75%; /* ï¿½ï¿½ï¿½Ì•ï¿½*/
       margin: auto;
     }
 
     div#footer-fixed{  
-      /* position: fixed;  footer‚ÌŒÅ’è */ 
+      /* position: fixed;  footerï¿½ÌŒÅ’ï¿½ */ 
       bottom: 0px;
       left: 0px;
       width: 200%;
@@ -58,9 +58,9 @@ body {
       width:100%;
     } 
     div#footer { 
-      border: 0px solid #e0ffff; /* •\¦—Ìˆæ‚ğˆÍ‚¤ */ 
-      height: 100%; /* c‚Ì•\¦—Ìˆæ‚Ífooter-bk‚Æ“¯‚¶ */ 
-      width: 60%; /* ‰¡‚Ì•*/
+      border: 0px solid #e0ffff; /* ï¿½\ï¿½ï¿½ï¿½Ìˆï¿½ï¿½ï¿½Í‚ï¿½ */ 
+      height: 100%; /* ï¿½cï¿½Ì•\ï¿½ï¿½ï¿½Ìˆï¿½ï¿½footer-bkï¿½Æ“ï¿½ï¿½ï¿½ */ 
+      width: 60%; /* ï¿½ï¿½ï¿½Ì•ï¿½*/
       margin: auto;
     }
 
@@ -112,4 +112,11 @@ dd { margin-left: 100px;}
 dd i { display: none; } /* spam obfuscation */
 dd span i { display: inline; font-style: normal; }
 
-
+.new::before {
+  content: "New!";
+  display: inline-block;
+  height: 20px;
+  width: 45px;
+  color:red;
+  font-weight: bold;
+}
