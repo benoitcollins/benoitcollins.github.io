@@ -180,6 +180,10 @@ a:visited {
     padding-top: 70px;
 }
 
+.font-small {
+    font-size: 90%;
+}
+
 @media (max-width: 700px) {
     .header-inner {
         position: fixed;
