@@ -184,6 +184,11 @@ a:visited {
     font-size: 90%;
 }
 
+.warning h2 {
+    color: red;
+    font-weight: bold;
+}
+
 @media (max-width: 700px) {
     .header-inner {
         position: fixed;
