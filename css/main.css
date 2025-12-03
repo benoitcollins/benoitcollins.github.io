@@ -120,3 +120,21 @@ dd span i { display: inline; font-style: normal; }
   color:red;
   font-weight: bold;
 }
+
+details summary {
+    font-size: 1.17em;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+details summary:hover {
+    color: #4C8438;
+}
+
+.important {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
