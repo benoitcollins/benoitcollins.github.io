@@ -149,3 +149,39 @@ details summary:hover {
 .footer-table td:nth-child(1) { background-color: #e0e9ff; } /* was bgcolor */
 .footer-table td:nth-child(2) { background-color: #d0ffd0; }
 .footer-table td:nth-child(3) { background-color: #ffff90; }
+
+/* --- responsive layout for small screens (desktop unchanged) --- */
+@media (max-width: 760px) {
+    body {
+        width: auto;
+        max-width: 700px;
+        padding: 12px 16px 0;
+        box-shadow: none;
+        overflow-wrap: break-word;
+    }
+    /* neutralise the desktop-only global div float on small screens */
+    div { float: none; margin-left: 0; }
+    /* header/footer: flow with the page instead of fixed/oversized bars.
+       div#... matches the specificity of the desktop rules so these win. */
+    div#header-fixed, div#header-bk, div#header,
+    div#footer-fixed, div#footer-bk, div#footer {
+        position: static; width: auto; height: auto;
+    }
+    div#header-bk { padding: 8px 0; }
+    /* nav links: stop floating, wrap onto multiple rows */
+    .nav-table { display: block; float: none; width: auto; margin: 8px 0 0; }
+    .nav-table tbody, .nav-table tr { display: block; }
+    .nav-table td { display: inline-block; padding: 4px 12px 4px 0; }
+    /* link & footer tables: stack their cells vertically so they fit */
+    .links-table, .links-table tbody, .links-table tr, .links-table td,
+    .footer-table, .footer-table tbody, .footer-table tr, .footer-table td {
+        display: block;
+        width: auto;
+    }
+    /* keep images and long links inside the viewport */
+    img { max-width: 100%; }
+    td { overflow-wrap: anywhere; }
+    /* contact list: avoid wide left margins that overflow narrow screens */
+    dt { float: none; margin-left: 0; }
+    dd { margin-left: 0; }
+}
