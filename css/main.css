@@ -138,3 +138,14 @@ details summary:hover {
     text-decoration: underline;
     margin-bottom: 5px;
 }
+
+/* --- styles migrated from deprecated HTML attributes (no visual change intended) --- */
+.site-name { font-size: large; }                  /* was <font size="4"> */
+.nav-table { float: right; margin-right: 100px; } /* was align="right" + inline margin */
+.nav-table td { padding: 5px; }                   /* was cellpadding="5" */
+.links-table td { padding: 4px; }                 /* was cellpadding="4" */
+.links-table td.vtop { vertical-align: top; }     /* was valign="top" */
+.footer-table td { padding: 5px; }                /* was cellpadding="5" */
+.footer-table td:nth-child(1) { background-color: #e0e9ff; } /* was bgcolor */
+.footer-table td:nth-child(2) { background-color: #d0ffd0; }
+.footer-table td:nth-child(3) { background-color: #ffff90; }
